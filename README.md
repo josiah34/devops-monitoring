@@ -2,7 +2,7 @@
 
 In this project I will be setting up a web application on an ec2 image and monitoring it using Grafana, Prometheus and Alert Manager as a part of the DevOps Monitoring Deep Dive course on A Cloud Guru
 
-
+### Setting up ec2 image and application 
 
 1. I created a terraform script to quickly deploy my ec2 instance along with installing and setting up docker. 
 
@@ -17,3 +17,6 @@ In this project I will be setting up a web application on an ec2 image and monit
 5. To see the running app go to ``http://YOUR_PUBLIC_IP:80``
 ![running-app-3](https://github.com/josiah34/devops-monitoring/assets/25124463/b4e413f2-42e2-4f84-be48-849a237fcd24)
 
+### Prometheus Setup 
+
+1. Creating a user for prometheus ``sudo useradd --no-create-home --shell /bin/false prometheus``
